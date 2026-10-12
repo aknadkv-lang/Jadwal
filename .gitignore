@@ -1,0 +1,20 @@
+# Dependencies and Next.js output
+node_modules/
+.next/
+.next-corrupt-*/
+out/
+
+# Local database and runtime logs
+data/*.sqlite
+data/*.sqlite-shm
+data/*.sqlite-wal
+*.log
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
+
+# Operating-system files
+.DS_Store
+Thumbs.db

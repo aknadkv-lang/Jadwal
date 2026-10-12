@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+body { background: #f7f6fb; color: #171a38; }
+button, input, select { font: inherit; }
+dialog::backdrop { background: rgb(23 26 56 / .42); backdrop-filter: blur(2px); }
+dialog { animation: appear .18s ease-out; }
+@keyframes appear { from { opacity: 0; transform: translateY(12px) scale(.98); } to { opacity: 1; transform: none; } }
